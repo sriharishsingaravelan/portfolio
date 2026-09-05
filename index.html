@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b1521" />
+    <meta
+      name="description"
+      content="Portfolio of Sri Harish Singaravelan, a mechanical engineer specializing in robotics, mechatronics, automation, CAD, and product development."
+    />
+    <title>Sri Harish Singaravelan | Mechanical Engineer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=20260905-5" />
+    <script src="portfolio-data.js?v=20260905-6" defer></script>
+    <script src="app.js?v=20260905-6" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="wordmark" href="#top" aria-label="Sri Harish Singaravelan, home">
+          <span class="wordmark-mark" data-initials>SH</span>
+          <span class="wordmark-name" data-short-name>Sri Harish</span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="#work">Work</a>
+          <a href="#cad-models">CAD Models</a>
+          <a href="#experience">Experience</a>
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+        </nav>
+        <a class="header-contact" data-email-link href="mailto:sriharish1108@gmail.com">
+          Get in touch
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-eyebrow></p>
+          <h1 id="hero-title" data-headline></h1>
+          <p class="hero-intro" data-introduction></p>
+          <div class="hero-actions" id="hero-links" aria-label="Professional links"></div>
+          <div class="hero-meta" aria-label="Contact and location">
+            <span data-location></span>
+            <span class="meta-divider" aria-hidden="true"></span>
+            <a data-email-link data-email-text href="mailto:sriharish1108@gmail.com"></a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-reveal-delay="1">
+          <figure class="hero-figure">
+            <img
+              src="assets/sri-harish-portrait.webp"
+              alt="Professional portrait of Sri Harish Singaravelan"
+              width="200"
+              height="200"
+            />
+            <figcaption>
+              <span>Mechanical engineer</span>
+              <strong>Robotics · Automation · Product development</strong>
+            </figcaption>
+          </figure>
+          <div class="hero-index" aria-hidden="true">Profile / 01</div>
+        </div>
+      </section>
+
+      <section class="metrics section-shell" aria-label="Career highlights">
+        <div class="metrics-grid" id="metrics-grid"></div>
+      </section>
+
+      <section class="section-shell section-block" id="work" aria-labelledby="work-title">
+        <header class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Selected engineering work</p>
+            <h2 id="work-title">Built, tested, refined.</h2>
+          </div>
+          <p>
+            Selected projects spanning mechanical design, robotics, controls, embedded systems, and multidisciplinary product development.
+        </header>
+        <div class="projects-grid" id="projects-grid"></div>
+      </section>
+
+
+      <section class="cad-band" id="cad-models" aria-labelledby="cad-title">
+        <div class="section-shell section-block">
+          <header class="section-heading reveal">
+            <div>
+              <p class="section-kicker">Selected CAD work</p>
+              <h2 id="cad-title">Models that show how I think in CAD.</h2>
+            </div>
+            <p>
+              A focused selection of mechanical assemblies and product-form studies. Only the strongest models are shown here.
+            </p>
+          </header>
+          <div class="cad-grid" id="cad-grid"></div>
+        </div>
+      </section>
+
+      <section class="experience-band" id="experience" aria-labelledby="experience-title">
+        <div class="section-shell section-block">
+          <header class="section-heading section-heading-light reveal">
+            <div>
+              <p class="section-kicker">Professional experience</p>
+              <h2 id="experience-title">Design across the full engineering cycle.</h2>
+            </div>
+            <p>
+              Leading with real-world mechatronics at Berkshire Grey and human-centered product development at Symbionic Tech.
+            </p>
+          </header>
+          <div class="experience-list" id="experience-list"></div>
+        </div>
+      </section>
+
+
+      <section class="section-shell section-block about-grid" id="about" aria-labelledby="about-title">
+        <div class="about-copy reveal">
+          <p class="section-kicker">About me</p>
+          <h2 id="about-title">A systems-minded builder with a mechanical foundation.</h2>
+          <div id="about-copy"></div>
+        </div>
+        <div class="skills-panel reveal" data-reveal-delay="1">
+          <div class="panel-heading">
+            <span>Engineering toolkit</span>
+            <span aria-hidden="true">05 disciplines</span>
+          </div>
+          <div id="skills-list"></div>
+        </div>
+      </section>
+
+      <section class="education-band" id="education" aria-labelledby="education-title">
+        <div class="section-shell section-block">
+          <header class="section-heading reveal">
+            <div>
+              <p class="section-kicker">Education & credentials</p>
+              <h2 id="education-title">Grounded in mechanical engineering. Expanded through mechatronics.</h2>
+            </div>
+          </header>
+          <div class="education-layout">
+            <div class="education-list" id="education-list"></div>
+            <div class="certifications reveal" data-reveal-delay="1">
+              <h3>Certifications & training</h3>
+              <ul id="certification-list"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner reveal">
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Let's build something that works in the real world.</h2>
+          <p>
+            For opportunities and engineering collaborations, reach out directly by email or phone, or connect on LinkedIn.
+          </p>
+          <div class="contact-actions">
+            <a class="contact-email" data-email-link data-email-text href="mailto:sriharish1108@gmail.com"></a>
+            <a
+              class="contact-email contact-phone"
+              data-phone-link
+              data-phone-text
+              href="tel:+18574247104"
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-inner">
+        <div>
+          <span class="footer-mark" data-initials>SH</span>
+          <span data-full-name></span>
+        </div>
+        <p>Mechanical design · Mechatronics Engineer · Robotics</p>
+        <p>© <span id="current-year"></span></p>
+      </div>
+    </footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <form method="dialog" class="dialog-close-wrap">
+        <button class="dialog-close" aria-label="Close project details">
+          <span aria-hidden="true">×</span>
+        </button>
+      </form>
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <noscript>
+      <div class="noscript-message">Please enable JavaScript to view the complete portfolio.</div>
+    </noscript>
+  </body>
+</html>
